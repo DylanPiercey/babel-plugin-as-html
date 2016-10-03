@@ -1,0 +1,32 @@
+{
+  "name": "babel-plugin-as-html",
+  "description": "Babel plugin to minify html templates from as-html.",
+  "version": "1.0.0",
+  "author": "Dylan Piercey <pierceydylan@gmail.com>",
+  "bugs": "https://github.com/DylanPiercey/babel-plugin-as-html/issues",
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/DylanPiercey/babel-plugin-as-htm",
+  "keywords": [
+    "babel",
+    "plugin",
+    "as-html",
+    "minify",
+    "htmlmin"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DylanPiercey/babel-plugin-as-html"
+  },
+  "scripts": {
+    "lint": "standard | snazzy",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "snazzy": "^5.0.0",
+    "standard": "^8.3.0"
+  }
+}
